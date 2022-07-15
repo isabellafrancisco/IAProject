@@ -1,11 +1,11 @@
-# Missionários e Canibais: busca por profundidade e largura
+# Missionários e Canibais: busca por profundidade e largur
 Solucionar o problema de atravessar missionários e canibais para a outra margem do rio utilizando busca por profundidade e busca em largura.
 
 ## Dependencies
 
 - python3: para executar o projeto python
 - pygame: para executar a interface gráfica do projeto python
-- pycharm: para 
+- pycharm
 
 ## Run
 ### Busca por largura 
