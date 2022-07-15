@@ -1,8 +1,10 @@
-# IAProject
+# Missionários e Canibais: busca por profundidade e largura
+Solucionar o problema de atravessar missionários e canibais para a outra margem do rio utilizando busca por profundidade e busca em largura.
 
-## sdsad
+## Dependencies
 
 - python
+- pygame
 
 ``` 
 adsdasdsad 
