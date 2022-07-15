@@ -3,7 +3,7 @@ Solucionar o problema de atravessar missionários e canibais para a outra margem
 
 ## Dependencies
 
-- python
+- python3
 - pygame
 
 ``` 
