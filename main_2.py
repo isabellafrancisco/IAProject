@@ -1,6 +1,3 @@
-import  pygame
-import estados from estado_inicial , estado1 , estado2 , estado3 , estado4 , estado5 , estado6 , estado7 , estado8 , estado9 , estado10 , estado_final
-
 # definição do estado inicial 
 
 # posição 0 = 3 m na e
@@ -123,12 +120,15 @@ def testeobjetivo(estado):
   else:
     return False
 
- # Inicialindo o Pygame e criando.
-    pygame . init ()
-    display  =  pygame . exibir . set_mode ([ 1350 , 400 ])
-    pygame . exibir . set_caption ( 'Missionários e Canibais' )
-    objectGroup  =  pygame . sprite . Grupo ()
-    estados  =  estado_inicial ( objectGroup )
+import  pygame
+from estados import estado_inicial, estado1, estado2, estado3, estado4, estado5, estado6, estado7, estado8, estado9, estado10, estado_final
+
+# Inicialindo o Pygame e criando janela.
+pygame.init()
+display = pygame.display.set_mode([1350, 400])
+pygame.display.set_caption('Missionarios e Canibais')
+objectGroup = pygame.sprite.Group()
+estados = estado_inicial(objectGroup)
 
 # definindo a função de busca em profundidade 
 def dfs(estadoinicial): # recebe o estado inicial 
@@ -146,31 +146,31 @@ def dfs(estadoinicial): # recebe o estado inicial
     print("caminho não encontrado, busca sem sucesso")
   return borda
 
-    estados  =  estado1 ( objectGroup )
-    estados  =  estado2 ( objectGroup )
-    estados  =  estado3 ( objectGroup )
-    estados  =  estado4 ( objectGroup )
-    estados  =  estado5 ( objectGroup )
-    estados  =  estado6 ( objectGroup )
-    estados  =  estado7 ( objectGroup )
-    estados  =  estado8 ( objectGroup )
-    estados  =  estado9 ( objectGroup )
-    estados  =  estado10 ( objectGroup )
-    estados  =  estado_final ( objectGroup )
-    gameLoop  =  Verdadeiro
-    relógio  =  pygame . tempo . Relógio ()
-    if  __name__  ==  '__main__' :
-            while  gameLoop :
-                relógio . marca ( 60 )
-                para  evento  em  pygame . evento . obter ():
-                    se  evento . tipo  ==  pygame . SAIR :
-                        gameLoop  =  False
+estados  =  estado1 ( objectGroup )
+estados  =  estado2 ( objectGroup )
+estados  =  estado3 ( objectGroup )
+estados  =  estado4 ( objectGroup )
+estados  =  estado5 ( objectGroup )
+estados  =  estado6 ( objectGroup )
+estados  =  estado7 ( objectGroup )
+estados  =  estado8 ( objectGroup )
+estados  =  estado9 ( objectGroup )
+estados  =  estado10 ( objectGroup )
+estados  =  estado_final ( objectGroup )
+gameLoop = True
+clock = pygame.time.Clock()
+if __name__ == '__main__':
+            while gameLoop:
+                clock.tick(60)
+                for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        gameLoop = False
 
-                #atualizar e desenhar
-                exibir . preencher ([ 30 , 20 , 20 ])
-                objectGrupo . atualização ()
-                objectGrupo . desenhar ( exibir )
-                pygame . exibir . atualização ()
+                    # atualizar e desenhar
+                    display.fill([30, 20, 20])
+                    objectGroup.update()
+                    objectGroup.draw(display)
+                    pygame.display.update()
 
 sol = dfs(estadoinicial)
 
