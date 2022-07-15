@@ -1,5 +1,9 @@
-# Missionários e Canibais: busca por profundidade e largur
+# Missionários e Canibais: busca por profundidade e largura
 Solucionar o problema de atravessar missionários e canibais para a outra margem do rio utilizando busca por profundidade e busca em largura.
+
+Isabella Pio Medeiros Francisco RGA: 202011902009
+
+Izamara Van Der Stock das Neves RGA: 202011902011
 
 ## Dependencies
 
