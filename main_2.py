@@ -1,5 +1,5 @@
-importar  pygame
-de  estados  import  estado_inicial , estado1 , estado2 , estado3 , estado4 , estado5 , estado6 , estado7 , estado8 , estado9 , estado10 , estado_final
+import  pygame
+import estados from estado_inicial , estado1 , estado2 , estado3 , estado4 , estado5 , estado6 , estado7 , estado8 , estado9 , estado10 , estado_final
 
 # definição do estado inicial 
 
@@ -152,7 +152,7 @@ def dfs(estadoinicial): # recebe o estado inicial
     estados  =  estado4 ( objectGroup )
     estados  =  estado5 ( objectGroup )
     estados  =  estado6 ( objectGroup )
-    estados  =  estado7 ( ​​objectGroup )
+    estados  =  estado7 ( objectGroup )
     estados  =  estado8 ( objectGroup )
     estados  =  estado9 ( objectGroup )
     estados  =  estado10 ( objectGroup )
