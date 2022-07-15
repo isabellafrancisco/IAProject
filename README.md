@@ -3,18 +3,15 @@ Solucionar o problema de atravessar missionários e canibais para a outra margem
 
 ## Dependencies
 
-- python3
-- pygame
-- pycharm
-``` 
-adsdasdsad 
-asdasdsa
+- python3: para executar o projeto python
+- pygame: para executar a interface gráfica do projeto python
+- pycharm: para 
 
-d
-sad
-asd
-a
-d
-```
+## Run
+### Busca por largura 
+Para executar o programa é necessário criar um novo projeto no pycharm e baixar os arquivos: estados.py,  main.py e a pasta estados deste repositório dentro do projeto criado. 
+Assim o programa, ao ser executado, solucionará o problema dos missionários e canibais utilizando a busca por largura.
 
-` adsad `
+### Busca por profundidade
+Para executar o programa é necessário criar um novo projeto no pycharm e baixar os arquivos: estados.py,  main_2.py e a pasta estados deste repositório dentro do projeto criado. 
+Assim o programa, ao ser executado, solucionará o problema dos missionários e canibais utilizando a busca por profundidade.
