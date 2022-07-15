@@ -5,7 +5,7 @@ Solucionar o problema de atravessar missionários e canibais para a outra margem
 
 - python3
 - pygame
-
+- pycharm
 ``` 
 adsdasdsad 
 asdasdsa
