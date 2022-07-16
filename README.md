@@ -15,7 +15,7 @@ Para instalar o python acesse o link ` https://www.python.org/downloads/ ` e cli
 
 Para instalar o pygame é preciso verificar a instalação do python com o comando ` python --version ` e a instalação do pip com o comando ` pip --version `
 
-Uma vez verificada a instalação do python e do pip é possível intalar o pygame com o comando ` pip install pygame`
+Uma vez verificada a instalação do python e do pip é possível instalar o pygame com o comando ` pip install pygame`
 
 
 - pycharm
