@@ -20,13 +20,13 @@ Uma vez verificada a instalação do python e do pip é possível instalar o pyg
 
 - pycharm
 
-Para inatalar o pycharm acesse o link ` https://www.jetbrains.com/pycharm/ ` e clique em fazer download
+Para instalar o pycharm acesse o link ` https://www.jetbrains.com/pycharm/ ` e clique em fazer download
 
 ## Run
 Para executar o programa é necessário criar um novo projeto no pycharm e baixar os arquivos deste repositório dentro do projeto criado
 
 ### Busca por largura 
-Ao realizar a execução, escolha o arquivo main.py para ser executado a fim de que o problema seja resolvido em busca por largura
+Ao realizar a execução escolha o arquivo main.py para ser executado, a fim de que o problema seja resolvido em busca por largura
 
 ### Busca por profundidade 
-Ao realizar a execução, escolha o arquivo main_2.py para ser executado a fim de que o problema seja resolvido em busca por profundida
+Ao realizar a execução escolha o arquivo main_2.py para ser executado, a fim de que o problema seja resolvido em busca por profundida
